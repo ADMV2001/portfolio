@@ -22,7 +22,7 @@ function App() {
         </video>
 
         {/* Optional: Semi-transparent overlay to improve text readability over the video */}
-        <div className="absolute inset-0 bg-black opacity-30 z-[-1]"></div> {/* Overlay also in background */}
+        <div className="absolute inset-0 bg-black opacity-20 z-[-1]"></div> {/* Overlay also in background */}
 
         {/* Scrollable Content Area */}
         {/* - flex-grow: Takes available vertical space.
@@ -47,7 +47,7 @@ function App() {
     - justify-center md:justify-between: Centers children on mobile, then spreads them on desktop.
     - gap-8 md:gap-16: Adds spacing between the image and text sections.
   */}
-  <div className=" bg-white/0 w-full md:w-[70%] pt-120  md:pt-15 flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between gap-8 md:gap-16">
+  <div className=" bg-white/0 w-full md:w-[70%] pt-80  md:pt-15 flex flex-col md:flex-row items-center md:items-start justify-center md:justify-between gap-8 md:gap-16">
 
     {/* Image Column: Appears on top on mobile, on the right on desktop */}
     {/*
@@ -56,7 +56,7 @@ function App() {
       - flex justify-center: Centers the image horizontally within its own container on mobile.
     */}
     <div className="flex justify-center order-first md:order-last">
-      <div className="bg-white/5 p-5 rounded-4xl"> {/* Retained your custom rounded-4xl */}
+      <div className="bg-white/5 p-8 rounded-4xl"> {/* Retained your custom rounded-4xl */}
         {/*
           - w-full: Image takes full width of its parent container.
           - max-w-[300px]: Limits image width to 300px on small screens.
@@ -78,7 +78,7 @@ function App() {
     */}
     <div className="flex flex-col items-center md:items-start text-center md:text-left order-last md:order-first">
       <h1 className="text-[25px] text-gray-200 font-extrabold">Hi there🖐 I'm</h1>
-      <p className="text-[55px] font-extrabold text-green-400">Minula Vihanga</p>
+      <p className="text-[45px] md:text-[55px] font-extrabold text-green-400">Minula Vihanga</p>
       {/* Assuming you want the Karla font here, add font-karla class if not applied globally */}
 
       <h1 className="text-[25px] text-gray-200 font-extrabold mt-4 md:mt-0">I'm a</h1>

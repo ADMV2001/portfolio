@@ -6,12 +6,12 @@ function Navbar() {
     // Added: fixed bottom-0 left-0 right-0 (or inset-x-0) w-full to ensure it spans the viewport width
     // Added: z-50 to ensure it's above most other content (adjust as needed)
     // The inner div will then be centered within this fixed container.
-    <div className="fixed top-1 left-0 right-0 w-full flex justify-center z-50 pb-4"> {/* pb-4 is optional, adds some padding from the very bottom edge */}
+    <div className="fixed top-0 left-0 right-0 w-full flex justify-center z-50 pb-4"> {/* pb-4 is optional, adds some padding from the very bottom edge */}
       {/* --- Main Navbar Container --- */}
       {/* Mobile: Takes up 80% width initially, smaller height, less padding, smaller gap */}
       {/* Medium screens and up: Adjusts width as defined */}
       {/* Removed mx-auto from here as the parent div now handles centering */}
-      <div className="w-[94%] sm:w-[94%] md:w-[94%] lg:w-[94%] xl:w-[94%] h-[80px] sm:h-[70px] md:h-[80px] backdrop-blur-3xl flex justify-center items-center gap-3 sm:gap-4 md:gap-4 lg:gap-7 rounded-xl md:rounded-4xl shadow-lg p-1 sm:p-2 px-4">
+      <div className="w-[94%] sm:w-[94%] md:w-[94%] lg:w-[94%] xl:w-[94%] h-[80px] sm:h-[70px] md:h-[80px] bg-white/15 backdrop-blur-3xl flex justify-center items-center gap-3 sm:gap-4 md:gap-4 lg:gap-7 rounded-b-xl md:rounded-b-4xl shadow-lg p-1 sm:p-2 px-4">
 
         {/* --- Projects Icon --- */}
         {/* Mobile: Smaller width, padding, image size, text size */}
