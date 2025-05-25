@@ -6,6 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 
 
 function App() {
+
   return (
     <>
       {/* Main container: Full screen, relative for positioning video, overflow hidden for video bounds */}
@@ -98,8 +99,8 @@ function App() {
       */}
       <button className="w-fit h-12 px-6 py-1 bg-green-500 rounded-2xl text-white text-[18px] font-bold mt-5 cursor-pointer hover:bg-green-600 transition-colors">Download Resume</button>
       <div className="flex gap-4">
-        <FaGithubSquare className="w-8 h-8 mt-4 text-gray-200 cursor-pointer hover:text-white transition-colors"/>
-        <FaLinkedin className="w-8 h-8 mt-4 text-gray-200 cursor-pointer hover:text-blue-400 transition-colors"/>
+        <a href="https://github.com/ADMV2001" target="_blank"><FaGithubSquare className="w-8 h-8 mt-4 text-gray-200 cursor-pointer hover:text-white transition-colors"/></a>
+        <a href="https://www.linkedin.com/in/minula-vihanga-9031b4293/" target="_blank"><FaLinkedin className="w-8 h-8 mt-4 text-gray-200 cursor-pointer hover:text-blue-400 transition-colors"/></a>
       </div>
     </div>
 
