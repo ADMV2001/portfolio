@@ -11,7 +11,7 @@ function Navbar() {
       {/* Mobile: Takes up 80% width initially, smaller height, less padding, smaller gap */}
       {/* Medium screens and up: Adjusts width as defined */}
       {/* Removed mx-auto from here as the parent div now handles centering */}
-      <div className="w-[80%] sm:w-[70%] md:w-[60%] lg:w-[50%] xl:w-[32%] h-[80px] sm:h-[70px] md:h-[85px] bg-white/60 flex justify-center items-center gap-3 sm:gap-4 md:gap-4 lg:gap-8 rounded-xl md:rounded-2xl shadow-lg p-1 sm:p-2 px-4">
+      <div className="w-[94%] sm:w-[70%] md:w-[60%] lg:w-[50%] xl:w-[32%] h-[80px] sm:h-[70px] md:h-[85px] bg-white/60 flex justify-center items-center gap-3 sm:gap-4 md:gap-4 lg:gap-3 rounded-xl md:rounded-2xl shadow-lg p-1 sm:p-2 px-4">
 
         {/* --- Projects Icon --- */}
         {/* Mobile: Smaller width, padding, image size, text size */}
