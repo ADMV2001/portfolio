@@ -18,7 +18,7 @@ function Navbar() {
         {/* Medium screens and up: Gradually increases size */}
         {/* Adjusted w-[65px] to w-full for better flex distribution if text below icons vary in length, then control size via parent's gap and item's aspect or fixed width */}
         {/* Reverted to fixed widths for consistency with your design */}
-        <div className="opacity-100 z-10 flex flex-col justify-center items-center bg-gray-200 p-1 px-2 sm:p-2 sm:px-3 rounded-lg sm:rounded-xl w-[60px] h-[60px] sm:w-[55px] sm:h-[55px] md:w-[65px] md:h-[65px] cursor-pointer hover:bg-gray-500 hover:scale-108 transition-transform duration-300">
+        <div className="opacity-100 z-10 flex flex-col justify-center items-center bg-gray-200 p-1 px-2 sm:p-2 sm:px-3 rounded-lg sm:rounded-xl w-[60px] h-[60px] sm:w-[55px] sm:h-[55px] md:w-[65px] md:h-[65px] cursor-pointer hover:bg-green-100 hover:scale-108 transition-transform duration-300">
           <img src="projects.png" alt="Projects" className="opacity-100 z-10 w-[25px] sm:w-[22px] md:w-[25px]" />
           <h1 className="text-black text-[10px] sm:text-[9px] md:text-[10px] mt-[4px] sm:mt-[4px] font-semibold text-center">Projects</h1>
         </div>
