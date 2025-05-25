@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
 .bg-video{
     background-image: url('login.jpg');
     background-size: cover;
@@ -6,3 +8,6 @@
     height: 100vh;
     position: relative;
 }
+
+
+
