@@ -68,7 +68,7 @@ function App() {
 
             {/* Text Content Section: */}
             <div className="flex flex-col items-center md:mt-30 md:items-start text-center md:text-left order-last md:order-first">
-              <h1 className="text-[25px] text-gray-200 font-extrabold">Hi there🖐 I'm</h1>
+              <h1 className="text-[25px] text-gray-200 font-bold">Hi there🖐 I'm</h1>
               <p className="text-[45px] md:text-[55px] font-extrabold text-blue-500">Minula Vihanga</p>
               <h1 className="text-[25px] text-gray-200 font-extrabold mt-4 md:mt-0">I'm a</h1>
               <h1 className="text-[32px] font-semibold text-blue-400 mt-[-5px]">Full Stack Developer</h1>
@@ -92,7 +92,7 @@ function App() {
           </div>
 
           <Projects/>
-          
+
         </div>
       </div>
     </div>
