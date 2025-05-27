@@ -30,7 +30,7 @@ function App() {
           playsInline /* Important for mobile browsers to allow autoplay */
           className="fixed inset-0 w-full h-full object-cover z-0"
         >
-          <source src="/back5.mp4" type="video/mp4" />
+          <source src="/back1.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
 
@@ -38,7 +38,7 @@ function App() {
         {/* - absolute inset-0: Stretches across the entire parent. */}
         {/* - bg-black opacity-20: Creates a semi-transparent black overlay. */}
         {/* - z-10: Places it above the video but below the main content. */}
-        <div className="fixed inset-0 bg-black opacity-40 z-10"></div>
+        <div className="fixed inset-0 bg-black opacity-80 z-10"></div>
 
         {/* Scrollable Content Wrapper: */}
         {/* This is the key div that holds all your foreground content. */}
@@ -69,16 +69,16 @@ function App() {
             {/* Text Content Section: */}
             <div className="flex flex-col items-center md:mt-30 md:items-start text-center md:text-left order-last md:order-first">
               <h1 className="text-[25px] text-gray-200 font-bold">Hi there🖐 I'm</h1>
-              <p className="text-[45px] md:text-[55px] font-extrabold text-blue-500">Minula Vihanga</p>
+              <p className="text-[45px] md:text-[55px] font-extrabold text-[#129990]">Minula Vihanga</p>
               <h1 className="text-[25px] text-gray-200 font-extrabold mt-4 md:mt-0">I'm a</h1>
-              <h1 className="text-[32px] font-semibold text-blue-400 mt-[-5px]">Full Stack Developer</h1>
+              <h1 className="text-[32px] font-semibold text-[#90D1CA] mt-[-5px]">Full Stack Developer</h1>
 
               <p className="max-w-prose mt-3 text-gray-200 text-[18px]">
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto modi natus aspernatur! Tenetur in, accusantium libero expedita ipsa
                 error, qui veniam vero laboriosam quae illo? Ut incidunt sapiente perspiciatis earum.
               </p>
 
-              <button className="w-fit h-12 px-4 py-1 bg-blue-500 rounded-2xl text-white text-[16px] font-semibold mt-5 cursor-pointer hover:bg-blue-700 transition-colors">Download Resume</button>
+              <button className="w-fit h-12 px-4 py-1 bg-[#129990] rounded-2xl text-white text-[16px] font-semibold mt-5 cursor-pointer hover:bg-blue-700 transition-colors">Download Resume</button>
               <div className="flex gap-4">
                 {/* External links using <a> tags with target="_blank" and rel="noopener noreferrer" */}
                 <a href="https://github.com/ADMV2001" target="_blank" rel="noopener noreferrer">

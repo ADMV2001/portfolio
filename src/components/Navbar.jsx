@@ -12,8 +12,8 @@ function Navbar() {
       {/* Mobile: Takes up 80% width initially, smaller height, less padding, smaller gap */}
       {/* Medium screens and up: Adjusts width as defined */}
       {/* Removed mx-auto from here as the parent div now handles centering */}
-      <div className="w-[94%] sm:w-[94%] md:w-[94%] lg:w-[94%] xl:w-[94%] h-[80px] sm:h-[70px] md:h-[80px] border-b-[1px] border-blue-400 backdrop-blur-3xl flex justify-center items-center gap-2 sm:gap-2 md:gap-2 lg:gap-3 shadow-lg p-1 sm:p-2 px-4">
-        <div className="hidden md:hidden lg:block md:absolute left-48 text-blue-300 text-[30px] font-bold ">Portfolio</div>
+      <div className="w-[94%] sm:w-[94%] md:w-[94%] lg:w-[94%] xl:w-[94%] h-[80px] sm:h-[70px] md:h-[80px] border-b-1 border-[#129990] shadow-[0_4px_10px_rgba(20,184,166,0.6)] backdrop-blur-3xl flex justify-center items-center gap-2 sm:gap-2 md:gap-2 lg:gap-3 p-1 sm:p-2 px-4 rounded-b-xl">
+        <div className="hidden md:hidden lg:block md:absolute left-48 text-[#129990] text-[30px] font-bold ">Portfolio</div>
         {/* --- Projects Icon --- */}
         {/* Mobile: Smaller width, padding, image size, text size */}
         {/* Medium screens and up: Gradually increases size */}
